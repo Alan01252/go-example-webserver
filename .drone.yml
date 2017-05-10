@@ -20,5 +20,5 @@ pipeline:
                 volumes:
                         - /var/run/docker.sock:/var/run/docker.sock
                 commands:
-                        - docker login -u alan01276 -p $PASS
+                        - docker login -u alan01276 -p$PASS
                         - docker push alan01276/example-webserver
